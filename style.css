@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif sans-serif 'Courier New', Courier, monospace;
+   
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+}
+/*-----the Start of header-----*/
+header{
+    
+    background-color: #d4d4ce;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10px;
+    margin: 0px;
+    text-decoration: none;
+    z-index: 9999;
+}
+
+.logo{
+    margin: 1px;
+}
+.nav a{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav a:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(18, 93, 113);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px white,0 0 10px white,0 0 15px  white;
+    transition: -5s ease;}
+/*-----the End of the header-----*/
+
+/*-----the Start of First Main Section-----*/
+section{
+    padding: 100px 10px;
+}
+.hero-section{
+    background-color: #ffffff;
+}
+
+
+.hero.section{
+    min-width: 100vw;
+}
+.hero-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+}
+.left-box{
+    margin-left: 40px;
+    padding: 50px 0;
+}
+.red-address{
+    color: red;
+}
+.btn{
+    display: inline-block;
+    position: fix;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: #15042b;
+    border-radius: 10px;
+    color: white;
+}
+.right-img{
+    margin-right: 1px;
+    padding: 20px 0;
+}
+/*-----the End of First Main Section-----*/
+/*-----the Start of the Main Second Section-----*/
+.second-section{
+    background-color: #ffffff;
+    padding: 1.1rem;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cards2{
+    background-color: #d4d4ce;
+    border: 1px solid #000000;
+    min-height: 14em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 28px;
+    transition: 0.7s ease;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.248);
+    padding: 10px;
+    
+}
+/*-----the End of the Second Section-----*/
+/*-----the Start of the Third Section-----*/
+
+.teachers-Section{
+    background-color: #15042b;
+    padding: 1.1rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #d4d4ce;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.sec-title{
+    display: flex;
+    justify-content: center;
+    color: #f6f6f6;
+    font-size: 1.1em;
+    font-weight:200;
+    
+    }
+.teacher-card{
+        background-color: #d4d4ce;
+        border: 1px solid #f6f6f6;
+        min-height: 14em;
+        width: 19em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 28px;
+        transition: 0.7s ease;
+        
+        
+    }
+.teacher-image img{
+        width: 100%;
+    }
+.teacher-info{
+        padding: 1em;
+    }  
+
+.teachers-names{
+    color: blue;
+    font-size: large;
+}
+
+.Mini-Paragraph{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 10px;
+}
+/*-----the End of the Third Section-----*/
+/*-----the Start of the fourth Section-----*/
+.sec-title2{
+    display: flex;
+    justify-content: center;
+    color: #f6f6f6;
+    font-size: 1.1em;
+    font-weight:200;
+    text-decoration: solid;
+    }  
+
+
+
+.teacher-card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+
+
+.cards{
+    background-color: #d4d4ce;
+    border: 1px solid #000000;
+    min-height: 14em;
+    width: 19em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 28px;
+    transition: 0.7s ease;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.248);
+    padding: 10px;
+    
+}
+
+.cards:hover{
+    
+    transform: translate(0px, 18px);
+}
+.child-image img{
+    width: 100%;
+}
+h3{
+ color: rgb(21, 21, 134);
+}
+/*-----the Start of the footer-----*/
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin:0px;
+    margin-bottom: 10px;
+  }
+.copy {
+    font-size: 20px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+    text-align: center;
+  }
+/*-----the End of the footer-----*/  
+  
